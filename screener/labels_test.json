@@ -1,0 +1,212 @@
+{
+ "0f53ede4d2": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "0f8ecd605f": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "249a3b953b": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "2f4d2f3695": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "30a021bf7f": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "5d3b688d7c": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "602dcfcc81": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "b7cd55a41e": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "bb7a4a84ba": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "dd6716f824": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "fc80b549ed": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "fdd9cf1e38": {
+  "label": "eligible",
+  "source": "auto_no_restriction_words"
+ },
+ "0d3a015777": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "0d951dae6d": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "1d6c970e81": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "239e81f566": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "2e560315a1": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "31980b50c8": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "367b0a984a": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "525db9d3b9": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "55842b35a9": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "55f0215128": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "66c437c31d": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "6d4c8ba5be": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "6f866bdacc": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "947927e000": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "a822ea9054": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "aa4b24b646": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "aaef4776ea": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "b1a246e02d": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "d1657cd858": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "d58ed8cdb3": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e01ec32502": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e1bbe312f1": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e262e09a29": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e3aa5bf44d": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e9f84adf47": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "edbf1d5036": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "f9cee634c2": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ }
+}

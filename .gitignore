@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.DS_Store
+.env
+
+# Personal / generated tracker state: application history, daily reports,
+# raw snapshots, the rendered dashboard, and the application log spreadsheet
+tracker/data/*
+!tracker/data/.gitkeep
+tracker/reports/*
+!tracker/reports/.gitkeep
+tracker/dashboard.html
+tracker/applications.xlsx
+tracker/profile.json
+tracker/manual_jobs.json
+tracker/manual_excluded.json
+
+# Scraped JD text is the employers' content: keep local, publish only results
+screener/data/

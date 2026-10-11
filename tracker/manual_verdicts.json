@@ -1,0 +1,3 @@
+{
+ "_comment": "Verdicts checked by hand in a browser, for sites verify.py can't read (anti-bot or JS-only pages). Keyed by application URL; apply_manual.py writes them over data/verified.json after every verify run. Entry format: \"<url>\": {\"verdict\": \"ok\" | \"no_sponsorship\" | \"citizen_only\" | \"dead\", \"real_title\": \"...\", \"flag\": \"\", \"flag_note\": \"what you saw\"}"
+}

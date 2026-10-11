@@ -1,0 +1,1154 @@
+[
+ {
+  "id": "0032fc1458",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-observability-platform-at-docusign-4476229576",
+  "company": "Docusign",
+  "title": "Software Engineer Intern - Observability (Platform)",
+  "role": "Software Engineer Intern - Observability (Platform)",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "041f8481e6",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-garmin-4465833759",
+  "company": "Garmin",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "04df4d3a5c",
+  "url": "https://www.linkedin.com/jobs/view/solutions-engineering-internship-spring-2027-new%0Adayton-ohio-at-tenet3%C2%AE-4475262840",
+  "company": "Tenet3®",
+  "title": "Solutions Engineering Internship (Spring 2027)New\\nDayton, Ohio",
+  "role": "Solutions Engineering Internship (Spring 2027)New Dayton, Ohio",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "0857b9944f",
+  "url": "https://jobs.ashbyhq.com/cyvl/8bfc4116-b0bb-47f8-bca1-7069a37db328",
+  "company": "Cyvl",
+  "title": "Software Engineering Intern - SWE/ML (Summer 2027)",
+  "role": "Software Engineering Intern - SWE/ML (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "0c4953148d",
+  "url": "https://www.linkedin.com/jobs/view/cloud-integration-engineering-intern-summer-2027-at-the-marzetti-company-4470899026",
+  "company": "The Marzetti Company",
+  "title": "Cloud Integration Engineering Intern - Summer 2027",
+  "role": "Cloud Integration Engineering Intern - Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "0d3a015777",
+  "url": "https://job-boards.greenhouse.io/enova/jobs/8239619?utm_source=Simplify&ref=Simplify",
+  "company": "Enova",
+  "title": "Software Engineer Internship Summer 2027 (Hybrid)",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "test"
+ },
+ {
+  "id": "0d951dae6d",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-hil-spring-summer-2027-at-hermeus-4478018710",
+  "company": "Hermeus",
+  "title": "Software Engineering Intern (HIL) - Spring/Summer 2027",
+  "role": "Software Engineering Intern (HIL) - Spring/Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "0def7fb002",
+  "url": "https://www.linkedin.com/jobs/view/ai-enabled-full-stack-software-engineering-intern-at-lennox-4468834524",
+  "company": "Lennox",
+  "title": "AI-Enabled Full-Stack Software Engineering Intern",
+  "role": "AI-Enabled Full-Stack Software Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "0f53ede4d2",
+  "url": "https://www.linkedin.com/jobs/view/cloud-infrastructure-network-monitoring-and-automation-software-engineer-intern-austin-tx-2027-at-ibm-4472994343",
+  "company": "IBM",
+  "title": "Cloud Infrastructure Network Monitoring and Automation Software Engineer Intern - Austin, TX - 2027",
+  "role": "Cloud Infrastructure Network Monitoring and Automation Software Engineer Intern - Austin, TX - 2027",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "0f8ecd605f",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-mechronix-4472564658",
+  "company": "Mechronix",
+  "title": "11,000+ Sojourner Center Jobs in United States",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "12c373067e",
+  "url": "https://www.linkedin.com/jobs/view/new-grad-software-engineer-at-forage-4476890128",
+  "company": "Forage",
+  "title": "New Grad, Software Engineer",
+  "role": "New Grad, Software Engineer",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "156020d50a",
+  "url": "https://www.linkedin.com/jobs/view/internship-ai-simulation-cloud-engineer-at-dassault-syst%C3%A8mes-4477896097",
+  "company": "Dassault Systèmes",
+  "title": "INTERNSHIP: AI Simulation Cloud Engineer",
+  "role": "INTERNSHIP: AI Simulation Cloud Engineer",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "1573bdcf29",
+  "url": "https://www.linkedin.com/jobs/view/software-development-intern-summer-2027-internship-at-motorola-solutions-4477122528",
+  "company": "Motorola Solutions",
+  "title": "Software Development Intern - Summer 2027 Internship",
+  "role": "Software Development Intern - Summer 2027 Internship",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "1728ab78b5",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-intern-at-dayton-freight-lines-inc-4469149547",
+  "company": "Dayton Freight Lines, Inc.",
+  "title": "Software Developer Intern",
+  "role": "Software Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "184a4d1eea",
+  "url": "https://www.linkedin.com/jobs/view/sw-engineer-%E2%80%93-microservice-developer-intern-at-ricoh-usa-inc-4474559244",
+  "company": "Ricoh USA, Inc.",
+  "title": "SW Engineer – Microservice Developer Intern",
+  "role": "SW Engineer – Microservice Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "1d6c970e81",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-haystack-4473853435",
+  "company": "Haystack",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "2042917608",
+  "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Android-Applications-Developer-Intern---Summer-2027_R69313?utm_source=Simplify&ref=Simplify",
+  "company": "Motorola",
+  "title": "Android Applications Developer Intern - Summer 2027",
+  "role": "Android Applications Developer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "2373815de1",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-career-launch-tech-initiative-4476807903",
+  "company": "Career Launch Tech Initiative",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "239e81f566",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-clay-4474108062",
+  "company": "Clay",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "249a3b953b",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-meeboss-4473588363",
+  "company": "MeeBoss",
+  "title": "11,000+ Sojourner Center Jobs in United States",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "29abeb20d2",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-shopback-4473144547",
+  "company": "ShopBack",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "2d990ae474",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-cair-health-4472148432",
+  "company": "Cair Health",
+  "title": "11,000+ Sojourner Center Jobs in United States",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "2e560315a1",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-natera-4473178670",
+  "company": "Natera",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "2e9392cc21",
+  "url": "https://job-boards.greenhouse.io/muonspace/jobs/5247725007?utm_source=Simplify&ref=Simplify",
+  "company": "Muon Space",
+  "title": "Flight Software Engineering Intern (Summer 2027)",
+  "role": "Flight Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "2f4d2f3695",
+  "url": "https://job-boards.greenhouse.io/courierhealth/jobs/5258913007?utm_source=Simplify&ref=Simplify",
+  "company": "Courier Health",
+  "title": "Software Engineering Intern (Summer 2027)",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "30298e3900",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-docusign-4475133605",
+  "company": "Docusign",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "30a021bf7f",
+  "url": "https://www.linkedin.com/jobs/view/textile-engineering-analytics-software-internship-summer-2027-at-springs-window-fashions-4455040778",
+  "company": "Springs Window Fashions",
+  "title": "Textile Engineering Analytics & Software Internship - summer 2027",
+  "role": "Textile Engineering Analytics & Software Internship - summer 2027",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "31980b50c8",
+  "url": "https://basspro.wd1.myworkdayjobs.com/careers/job/Springfield-MO-Bass-Pro-Shops-Base-Camp/IT-Developer-Intern-Summer-2027_R267441-1?utm_source=Simplify&ref=Simplify",
+  "company": "Bass Pro Shops",
+  "title": "IT Developer Intern Summer 2027",
+  "role": "IT Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "367b0a984a",
+  "url": "https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Boston/Summer-2027-Software-Engineer-Intern--June---August-_MFS-231984?utm_source=Simplify&ref=Simplify",
+  "company": "MFS",
+  "title": "Summer 2027 Software Data Intern (June - August)",
+  "role": "Software Data Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "3caa8efae9",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-1-web-applications-at-garmin-4476799587",
+  "company": "Garmin",
+  "title": "Software Engineer 1 - Web Applications",
+  "role": "Software Engineer 1 - Web Applications",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "3fda19c56f",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-summer-2027-at-vertiv-4476323358",
+  "company": "Vertiv",
+  "title": "Software Engineering Intern (Summer 2027)",
+  "role": "Software Engineering Intern (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "415e35e820",
+  "url": "https://www.linkedin.com/jobs/view/backend-engineering-intern-at-genpark-4473347882",
+  "company": "GenPark",
+  "title": "Backend Engineering Intern",
+  "role": "Backend Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "45333adfcf",
+  "url": "https://www.linkedin.com/jobs/view/jr-software-engineer-full-time-at-tetrahed-inc-4476276551",
+  "company": "TETRAHED INC",
+  "title": "Jr. Software Engineer - Full Time",
+  "role": "Jr. Software Engineer - Full Time",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "46b07b5062",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-2027-at-ibm-4466207117",
+  "company": "IBM",
+  "title": "Software Engineering Intern 2027",
+  "role": "Software Engineering Intern 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "474884c4c6",
+  "url": "https://ats.rippling.com/apexanalytix-careers/jobs/40e4727d-e132-4de0-89ba-b4fdbd5860a7?utm_source=Simplify&ref=Simplify",
+  "company": "APEX Analytix",
+  "title": "This is a confidential job",
+  "role": "Automation Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "4c0b041b12",
+  "url": "https://job-boards.greenhouse.io/khanacademy/jobs/8250259?utm_source=Simplify&ref=Simplify",
+  "company": "Khan Academy",
+  "title": "Software Engineer Intern (Summer 2027)",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "4df68e38ce",
+  "url": "https://workday.wd5.myworkdayjobs.com/Workday_Early_Career/job/USA-CA-Pleasanton/Software-Development-Engineer-Intern_JR-0110810?utm_source=Simplify&ref=Simplify",
+  "company": "Workday",
+  "title": "Software Development Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "4e558ed6ae",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-buildertrend-4477880925",
+  "company": "Buildertrend",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "4fdf8eda53",
+  "url": "https://sailpoint.wd1.myworkdayjobs.com/en-US/SailPoint/job/Remote-United-Kingdom/Software-Engineer-Intern---Platform-Engines_R014164?utm_source=Simplify&ref=Simplify",
+  "company": "SailPoint",
+  "title": "Software Engineer Intern - Platform Engines",
+  "role": "Software Engineer Intern - Platform Engines",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "514021ab79",
+  "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--ADAS-Software-Engineer--ADPT_JR-202621820?utm_source=Simplify&ref=Simplify",
+  "company": "General Motors",
+  "title": "2027 Summer Intern- ADAS Software Engineer, ADPT",
+  "role": "ADAS Software Engineer Intern - Adpt",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "52594c34ee",
+  "url": "https://www.linkedin.com/jobs/view/titan-sv-software-engineer-intern-at-av-4472112007",
+  "company": "AV",
+  "title": "Titan-SV Software Engineer Intern",
+  "role": "Titan-SV Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "525db9d3b9",
+  "url": "https://www.linkedin.com/jobs/view/context-engineering-intern-at-mastercontrol-4473187478",
+  "company": "MasterControl",
+  "title": "Context Engineering Intern",
+  "role": "Context Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "53420a5f73",
+  "url": "https://www.linkedin.com/jobs/view/application-engineering-intern-at-emerson-4460113870",
+  "company": "Emerson",
+  "title": "Application Engineering Intern",
+  "role": "Application Engineering Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "55842b35a9",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-new-grad-remote-full-time-at-talenthop-4475264262",
+  "company": "TalentHop",
+  "title": "Software Engineer, New Grad | Remote - Full-time",
+  "role": "Software Engineer, New Grad | Remote - Full-time",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "55f0215128",
+  "url": "https://www.linkedin.com/jobs/view/design-engineering-internship-summer-2027-at-vertiv-4464633487",
+  "company": "Vertiv",
+  "title": "Design Engineering Internship (Summer 2027)",
+  "role": "Design Engineering Internship (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "5cb8093a99",
+  "url": "https://job-boards.greenhouse.io/sigmacomputing/jobs/7850795003?utm_source=Simplify&ref=Simplify",
+  "company": "Sigma Computing",
+  "title": "Software Engineering Intern (Summer 2027)",
+  "role": "Software Engineer Intern - Summer 2027",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "5d3b688d7c",
+  "url": "https://www.linkedin.com/jobs/view/intern-software-engineer-agent-engineer-eda-poughkeepsie-2027-at-ibm-4456558389",
+  "company": "IBM",
+  "title": "Intern Software Engineer / Agent Engineer - EDA - Poughkeepsie 2027",
+  "role": "Intern Software Engineer / Agent Engineer - EDA - Poughkeepsie 2027",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "602dcfcc81",
+  "url": "https://www.linkedin.com/jobs/view/2027-summer-internship-program-%E2%80%93-systematic-trading-technology-software-engineer-new-york-at-brevan-howard-4465872435",
+  "company": "Brevan Howard",
+  "title": "2027 Summer Internship Program – Systematic Trading Technology Software Engineer, New York",
+  "role": "2027 Summer Internship Program – Systematic Trading Technology Software Engineer, New York",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "605dba3cec",
+  "url": "https://www.linkedin.com/jobs/view/solutions-consulting-engineering-intern-2027-at-world-wide-technology-4457151796",
+  "company": "World Wide Technology",
+  "title": "Solutions, Consulting, & Engineering Intern - 2027",
+  "role": "Solutions, Consulting, & Engineering Intern - 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "62e79aa888",
+  "url": "https://www.linkedin.com/jobs/view/data-control-systems-engineer-intern-at-thermagia-engineering-4474468720",
+  "company": "Thermagia Engineering",
+  "title": "Data & Control Systems Engineer Intern",
+  "role": "Data & Control Systems Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "66c437c31d",
+  "url": "https://www.linkedin.com/jobs/view/summer-2027-software-engineering-intern-full-stack-at-intuit-4467723063",
+  "company": "Intuit",
+  "title": "Summer 2027: Software Engineering Intern - Full Stack",
+  "role": "Summer 2027: Software Engineering Intern - Full Stack",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "6be897784a",
+  "url": "https://www.linkedin.com/jobs/view/spring-2027-ief-electronic-systems-engineering-avionics-collegiate-intern-at-gulfstream-aerospace-4475441180",
+  "company": "Gulfstream Aerospace",
+  "title": "Spring 2027 - IEF - Electronic Systems Engineering (Avionics) Collegiate Intern",
+  "role": "Spring 2027 - IEF - Electronic Systems Engineering (Avionics) Collegiate Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "6d4c8ba5be",
+  "url": "https://simplify.jobs/jobs/click/1a0df397-2083-456f-9ecb-137eec7603ef",
+  "company": "Databricks",
+  "title": "Software Engineering Intern (2027 Start) - Winter",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "6f866bdacc",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-volunteer-at-career-launch-tech-initiative-4466680801",
+  "company": "Career Launch Tech Initiative",
+  "title": "Software Engineer Intern (volunteer)",
+  "role": "Software Engineer Intern (volunteer)",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "6f9de9b909",
+  "url": "https://www.linkedin.com/jobs/view/gnc-software-engineering-intern-summer-2027-at-muon-space-4473725060",
+  "company": "Muon Space",
+  "title": "GNC Software Engineering Intern (Summer 2027)",
+  "role": "GNC Software Engineering Intern (Summer 2027)",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "70daf54c17",
+  "url": "https://www.linkedin.com/jobs/view/summer-intern-software-engineering-at-allegion-4472098506",
+  "company": "Allegion",
+  "title": "Summer Intern - Software Engineering",
+  "role": "Summer Intern - Software Engineering",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "8399e97bc8",
+  "url": "https://www.linkedin.com/jobs/view/engineering-intern-at-mechvanta-engineering-4475627376",
+  "company": "Mechvanta Engineering",
+  "title": "Engineering Intern",
+  "role": "Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "8471f56bcb",
+  "url": "https://www.linkedin.com/jobs/view/vulnerability-management-engineering-intern-at-copart-4448869906",
+  "company": "Copart",
+  "title": "Vulnerability Management Engineering Intern",
+  "role": "Vulnerability Management Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "84b0bad44c",
+  "url": "https://www.linkedin.com/jobs/view/spring-2027-ief-software-engineer-collegiate-associate-intern-at-gulfstream-aerospace-4475433571",
+  "company": "Gulfstream Aerospace",
+  "title": "Spring 2027 - IEF - Software Engineer Collegiate Associate Intern",
+  "role": "Spring 2027 - IEF - Software Engineer Collegiate Associate Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "85e683983d",
+  "url": "https://jobs.lever.co/viget/b18cc87d-fca2-485a-a0f2-ad6197db63f2/apply?utm_source=Simplify&ref=Simplify",
+  "company": "Viget",
+  "title": "Viget - Software Developer Intern (2027)",
+  "role": "Software Developer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "8a21da6f85",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-%E2%80%93-tools-and-prototypes-at-quantum-signal-ai-llc-4473658113",
+  "company": "Quantum Signal AI, LLC",
+  "title": "Software Engineering Intern – Tools and Prototypes",
+  "role": "Software Engineering Intern – Tools and Prototypes",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "8c6c6e76f8",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-strada-4476971737",
+  "company": "Strada",
+  "title": "Software Engineer (Intern)",
+  "role": "Software Engineer (Intern)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "8eca328315",
+  "url": "https://www.linkedin.com/jobs/view/software-development-internship-summer-2027-at-p2s-4476885608",
+  "company": "P2S",
+  "title": "Software Development Internship - Summer 2027",
+  "role": "Software Development Internship - Summer 2027",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "8f09542d6a",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-onepay-4463558559",
+  "company": "OnePay",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "92d6f7a07a",
+  "url": "https://uscareers-idemia.icims.com/jobs/8650/job?mobile=true&needsRedirect=false&utm_source=Simplify&ref=Simplify",
+  "company": "IDEMIA",
+  "title": "Software Engineer Internship - Summer 2027",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "92ef184280",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-winter-27-at-vercel-corp-4477664178",
+  "company": "Vercel Corp",
+  "title": "Software Engineering Intern - Winter '27",
+  "role": "Software Engineering Intern - Winter '27",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "94492d275e",
+  "url": "https://www.linkedin.com/jobs/view/radio-systems-engineering-co-op-at-sonos-inc-4469482779",
+  "company": "Sonos, Inc.",
+  "title": "Radio Systems Engineering Co-Op",
+  "role": "Radio Systems Engineering Co-Op",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "947927e000",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-intern-at-chenega-mios-sbu-4475889061",
+  "company": "Chenega MIOS SBU",
+  "title": "Software Developer (Intern)",
+  "role": "Software Developer (Intern)",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "9591ade792",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-badger-meter-4477408823",
+  "company": "Badger Meter",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "9797540097",
+  "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Newport/Software-Engineering-Degree-Apprenticeship_JR10433575?utm_source=Simplify&ref=Simplify",
+  "company": "Airbus",
+  "title": "Software Engineering Degree Apprenticeship",
+  "role": "Software Engineer Intern Apprentice",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "97b96626cc",
+  "url": "https://www.linkedin.com/jobs/view/vehicle-systems-engineer-intern-at-aeronex-systems-4476773989",
+  "company": "AeroNex Systems",
+  "title": "Vehicle Systems Engineer Intern",
+  "role": "Vehicle Systems Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "97d99db0e9",
+  "url": "https://www.linkedin.com/jobs/view/engineering-intern-at-vexra-engineering-4477421194",
+  "company": "Vexra Engineering",
+  "title": "Engineering Intern",
+  "role": "Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "985e2d0818",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-i-remote-nationwide-at-vituity-4468023421",
+  "company": "Vituity",
+  "title": "Software Engineer I - Remote - Nationwide",
+  "role": "Software Engineer I - Remote - Nationwide",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "9a4e66c57a",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-us-summer-2027-at-telus-digital-4458671079",
+  "company": "TELUS Digital",
+  "title": "Software Engineering Intern (US) - Summer 2027",
+  "role": "Software Engineering Intern (US) - Summer 2027",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "9bba9a8e20",
+  "url": "https://www.linkedin.com/jobs/view/summer-2027-intern-%E2%80%93-software-developer-%E2%80%93-it-at-federal-reserve-board-4477837993",
+  "company": "Federal Reserve Board",
+  "title": "Summer 2027 Intern – Software Developer – IT",
+  "role": "Summer 2027 Intern – Software Developer – IT",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "a5d318d7f7",
+  "url": "https://www.linkedin.com/jobs/view/jt4-skillbridge-program-programmer-computer-scientist-opportunities-at-edwards-afb-ca-at-jt4-3810823435",
+  "company": "JT4",
+  "title": "JT4 SkillBridge Program - Programmer/Computer Scientist Opportunities at Edwards AFB, CA",
+  "role": "JT4 SkillBridge Program - Programmer/Computer Scientist Opportunities at Edwards AFB, CA",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "a822ea9054",
+  "url": "https://www.linkedin.com/jobs/view/intern-software-development-engineer-1finity-at-fujitsu-4475065186",
+  "company": "Fujitsu",
+  "title": "Intern - Software Development Engineer - 1Finity",
+  "role": "Intern - Software Development Engineer - 1Finity",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "aa4b24b646",
+  "url": "https://www.linkedin.com/jobs/view/engineering-intern-at-everline-tech-4477130830",
+  "company": "Everline Tech",
+  "title": "Engineering Intern",
+  "role": "Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "aaa8e3e374",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-intern-rochester-mn-at-ibm-4456531060",
+  "company": "IBM",
+  "title": "Software Developer Intern-Rochester, MN",
+  "role": "Software Developer Intern-Rochester, MN",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "aaef4776ea",
+  "url": "https://www.linkedin.com/jobs/view/2027-summer-intern-software-engineer-p-t-at-spectrum-4469518537",
+  "company": "Spectrum",
+  "title": "2027 Summer Intern: Software Engineer - P&T",
+  "role": "2027 Summer Intern: Software Engineer - P&T",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "b1a246e02d",
+  "url": "https://www.linkedin.com/jobs/view/early-careers-infrastructure-engineer-intern-at-health-care-service-corporation-4475504541",
+  "company": "Health Care Service Corporation",
+  "title": "Early Careers - Infrastructure Engineer Intern",
+  "role": "Early Careers - Infrastructure Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "test"
+ },
+ {
+  "id": "b789876a77",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-device-team-summer-2027-at-relay-4468239503",
+  "company": "Relay",
+  "title": "Software Engineering Intern (Device Team) - Summer 2027",
+  "role": "Software Engineering Intern (Device Team) - Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "b7cd55a41e",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-early-career-sf-at-affirm-4475150041",
+  "company": "Affirm",
+  "title": "Software Engineer, Early Career (SF)",
+  "role": "Software Engineer, Early Career (SF)",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "b875827847",
+  "url": "https://www.linkedin.com/jobs/view/associate-software-engineer-web-at-cboe-global-markets-4478018338",
+  "company": "Cboe Global Markets",
+  "title": "Associate Software Engineer, Web",
+  "role": "Associate Software Engineer, Web",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "ba050c8a4c",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-python-at-cnh-4464921854",
+  "company": "CNH",
+  "title": "Software Engineer Intern - Python",
+  "role": "Software Engineer Intern - Python",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "bb7a4a84ba",
+  "url": "https://www.linkedin.com/jobs/view/associate-application-developer-at-dallas-fort-worth-international-airport-dfw-4473505019",
+  "company": "Dallas Fort Worth International Airport (DFW)",
+  "title": "Associate Application Developer",
+  "role": "Associate Application Developer",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "bdee694bc2",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-%E2%80%93-self-service-directory-diagnostics-at-docusign-4473373323",
+  "company": "Docusign",
+  "title": "Software Engineering Intern – Self-Service Directory Diagnostics",
+  "role": "Software Engineering Intern – Self-Service Directory Diagnostics",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "c086e92e34",
+  "url": "https://www.linkedin.com/jobs/view/contract-student-worker-software-engineer-6-month-contract-20-hrs-week-at-zoox-4459026416",
+  "company": "Zoox",
+  "title": "Contract Student Worker Software Engineer (6-month Contract) (20/hrs week)",
+  "role": "Contract Student Worker Software Engineer (6-month Contract) (20/hrs week)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "c12bf6c369",
+  "url": "https://www.linkedin.com/jobs/view/project-engineering-intern-college-career-fair-at-v2x-inc-4461357438",
+  "company": "V2X Inc",
+  "title": "Project Engineering Intern - College Career Fair",
+  "role": "Project Engineering Intern - College Career Fair",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "c1aa6d008d",
+  "url": "https://www.linkedin.com/jobs/view/2027-technology-data-ai-ventures-summer-internship-program-platform-engineer-intern-at-new-york-life-4447276091",
+  "company": "New York Life",
+  "title": "2027 Technology, Data, AI & Ventures Summer Internship Program - Platform Engineer Intern",
+  "role": "2027 Technology, Data, AI & Ventures Summer Internship Program - Platform Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "c5590b2731",
+  "url": "https://www.linkedin.com/jobs/view/gnc-software-engineering-intern-summer-2027-at-climactic-4473990175",
+  "company": "Climactic",
+  "title": "GNC Software Engineering Intern (Summer 2027)",
+  "role": "GNC Software Engineering Intern (Summer 2027)",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "c5a3907c48",
+  "url": "https://www.linkedin.com/jobs/view/controls-engineering-intern-at-wabtec-corporation-4477471059",
+  "company": "Wabtec Corporation",
+  "title": "Controls Engineering Intern",
+  "role": "Controls Engineering Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "c6538802fa",
+  "url": "https://www.linkedin.com/jobs/view/data-control-systems-engineer-intern-at-valorantum-4474453122",
+  "company": "Valorantum",
+  "title": "Data & Control Systems Engineer Intern",
+  "role": "Data & Control Systems Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "c98415cf65",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-%E2%80%93-rds-engineering-intern%E2%80%8B-summer-2027-req%23%E2%80%8B43448%E2%80%8B-at-amway-4465804776",
+  "company": "Amway",
+  "title": "Software Engineer – RDS Engineering Intern, Summer 2027 (REQ#43448)",
+  "role": "Software Engineer – RDS Engineering Intern, Summer 2027 (REQ#43448)",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "ca0a651e16",
+  "url": "https://www.linkedin.com/jobs/view/engineering-intern-summer-2027-at-src-4459534762",
+  "company": "SRC",
+  "title": "Engineering Intern (Summer 2027)",
+  "role": "Engineering Intern (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "ca3640050a",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-2027-austin-tx-at-cloudflare-4471227448",
+  "company": "Cloudflare",
+  "title": "Software Engineer Intern (2027) - Austin, TX",
+  "role": "Software Engineer Intern (2027) - Austin, TX",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "cbe65b28df",
+  "url": "https://www.linkedin.com/jobs/view/reactor-software-engineering-intern-summer-2027-at-antares-4467976307",
+  "company": "Antares",
+  "title": "Reactor Software Engineering Intern - Summer 2027",
+  "role": "Reactor Software Engineering Intern - Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "cc5aadc310",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-summer-2027-at-saronic-technologies-4463075510",
+  "company": "Saronic Technologies",
+  "title": "Software Engineer Intern (Summer 2027)",
+  "role": "Software Engineer Intern (Summer 2027)",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "ccfb1acbd7",
+  "url": "https://dowjones.wd1.myworkdayjobs.com/en-US/Dow_Jones_Career/job/NYC---1211-Ave-of-the-Americas/Summer-2027-Internship-Program---Software-Engineering-Intern_Job_Req_55891?utm_source=Simplify&ref=Simplify",
+  "company": "Dow Jones",
+  "title": "Summer 2027 Internship Program – Software Engineering Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "d1235f5282",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-in-test-intern-at-ideas-4473390411",
+  "company": "IDEAS",
+  "title": "Software Developer in Test Intern",
+  "role": "Software Developer in Test Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "d1657cd858",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-co-op-hoffman-estates-il-at-siemens-healthineers-4463072228",
+  "company": "Siemens Healthineers",
+  "title": "Software Engineering Co-op - Hoffman Estates, IL",
+  "role": "Software Engineering Co-op - Hoffman Estates, IL",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "d3db09e7f5",
+  "url": "https://www.linkedin.com/jobs/view/software-development-in-test-intern-summer-2027-at-together-ai-4468007840",
+  "company": "Together AI",
+  "title": "Software Development In Test Intern (Summer 2027)",
+  "role": "Software Development In Test Intern (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "d4f23908a5",
+  "url": "https://www.linkedin.com/jobs/view/associate-software-engineer-at-av-4476387574",
+  "company": "AV",
+  "title": "Associate Software Engineer",
+  "role": "Associate Software Engineer",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "d54a7e7aa4",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/8011590003?utm_source=Simplify&ref=Simplify",
+  "company": "Affirm",
+  "title": "Software Engineer Intern (Summer 2027)",
+  "role": "Software Engineer Intern - Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "d5734eefc3",
+  "url": "https://www.linkedin.com/jobs/view/application-developer-co-op-mes-jan-aug-2027-at-bobcat-company-4459056067",
+  "company": "Bobcat Company",
+  "title": "Application Developer Co Op MES (Jan-Aug 2027)",
+  "role": "Application Developer Co Op MES (Jan-Aug 2027)",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "d58ed8cdb3",
+  "url": "https://www.linkedin.com/jobs/view/2027-summer-information-technology-software-development-intern-remote-at-constellation-4465196845",
+  "company": "Constellation",
+  "title": "2027 Summer Information Technology Software Development Intern (Remote)",
+  "role": "2027 Summer Information Technology Software Development Intern (Remote)",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "d7c27fb5ed",
+  "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4716166006?utm_source=Simplify&ref=Simplify",
+  "company": "Walleye Capital",
+  "title": "Special Projects Developer Intern (Summer 2027)",
+  "role": "Special Projects Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "d7f28c9b12",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-entry-level-at-divine-talent-4475445985",
+  "company": "Divine Talent",
+  "title": "Software Developer - Entry Level",
+  "role": "Software Developer - Entry Level",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "dbb0d0030d",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-adg-system-r-d-at-emerson-4467790623",
+  "company": "Emerson",
+  "title": "Software Engineering Intern - ADG System R&D",
+  "role": "Software Engineering Intern - ADG System R&D",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "dc790852e8",
+  "url": "https://www.linkedin.com/jobs/view/systems-test-automation-engineering-intern-at-borgwarner-4476848948",
+  "company": "BorgWarner",
+  "title": "Systems Test Automation Engineering Intern",
+  "role": "Systems Test Automation Engineering Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "dd6716f824",
+  "url": "https://eedu.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/202605435?utm_source=Simplify&ref=Simplify",
+  "company": "WTW",
+  "title": "2027 Software Developer Internship – Reigate",
+  "role": "Software Developer Intern",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "df2765ecff",
+  "url": "https://www.linkedin.com/jobs/view/summer-2027-ief-software-engineer-collegiate-associate-intern-at-gulfstream-aerospace-4475428679",
+  "company": "Gulfstream Aerospace",
+  "title": "Summer 2027 - IEF - Software Engineer Collegiate Associate Intern",
+  "role": "Summer 2027 - IEF - Software Engineer Collegiate Associate Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "e01ec32502",
+  "url": "https://www.linkedin.com/jobs/view/software-developer-intern-summer-2027-req%2343440-at-amway-4465807799",
+  "company": "Amway",
+  "title": "Software Developer Intern, Summer 2027 (REQ#43440)",
+  "role": "Software Developer Intern, Summer 2027 (REQ#43440)",
+  "regex_verdict": "no_sponsorship",
+  "split": "test"
+ },
+ {
+  "id": "e16da139ae",
+  "url": "https://www.linkedin.com/jobs/view/people-team-software-engineer-intern-winter-spring-2027-at-cloudflare-4474411875",
+  "company": "Cloudflare",
+  "title": "People Team: Software Engineer Intern (Winter/Spring 2027)",
+  "role": "People Team: Software Engineer Intern (Winter/Spring 2027)",
+  "regex_verdict": "no_sponsorship",
+  "split": "dev"
+ },
+ {
+  "id": "e1bbe312f1",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-systems-and-infrastructure-phd-at-meta-4476595061",
+  "company": "Meta",
+  "title": "Software Engineer Intern, Systems and Infrastructure (PhD)",
+  "role": "Software Engineer Intern, Systems and Infrastructure (PhD)",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "e262e09a29",
+  "url": "https://www.linkedin.com/jobs/view/flight-software-engineering-intern-summer-2027-at-muon-space-4473994136",
+  "company": "Muon Space",
+  "title": "Flight Software Engineering Intern (Summer 2027)",
+  "role": "Flight Software Engineering Intern (Summer 2027)",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "e3aa5bf44d",
+  "url": "https://www.linkedin.com/jobs/view/application-engineering-intern-at-graco-4465914048",
+  "company": "Graco",
+  "title": "Application Engineering Intern",
+  "role": "Application Engineering Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "test"
+ },
+ {
+  "id": "e403baffa5",
+  "url": "https://www.linkedin.com/jobs/view/engineering-intern-field-operations-at-lumia%E2%84%A2-4476843482",
+  "company": "Lumia™",
+  "title": "Engineering Intern - Field Operations",
+  "role": "Engineering Intern - Field Operations",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "e97455d879",
+  "url": "https://www.linkedin.com/jobs/view/intern-it-software-engineer-net-summer-2027-at-nelnet-4473838142",
+  "company": "Nelnet",
+  "title": "Intern - IT Software Engineer .NET (Summer 2027)",
+  "role": "Intern - IT Software Engineer .NET (Summer 2027)",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "e9f84adf47",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-at-av-4472111103",
+  "company": "AV",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineering Intern",
+  "regex_verdict": "citizen_only",
+  "split": "test"
+ },
+ {
+  "id": "edbf1d5036",
+  "url": "https://www.linkedin.com/jobs/view/software-engineer-intern-at-cboe-global-markets-4462573802",
+  "company": "Cboe Global Markets",
+  "title": "Software Engineer Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "no_sponsorship",
+  "split": "test"
+ },
+ {
+  "id": "eef505eebb",
+  "url": "https://www.linkedin.com/jobs/view/data-control-systems-engineer-intern-at-mechronix-4477406374",
+  "company": "Mechronix",
+  "title": "Data & Control Systems Engineer Intern",
+  "role": "Data & Control Systems Engineer Intern",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "f2157de989",
+  "url": "https://www.linkedin.com/jobs/view/new-grad-software-engineer-at-confido-4474223646",
+  "company": "Confido",
+  "title": "New Grad Software Engineer",
+  "role": "New Grad Software Engineer",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "f21adb1a3e",
+  "url": "https://www.linkedin.com/jobs/view/software-engineering-intern-2027-start-winter-at-databricks-4456969534",
+  "company": "Databricks",
+  "title": "Software Engineering Intern (2027 Start) - Winter",
+  "role": "Software Engineering Intern (2027 Start) - Winter",
+  "regex_verdict": "citizen_only",
+  "split": "dev"
+ },
+ {
+  "id": "f519554be5",
+  "url": "https://jobs.ashbyhq.com/Perchwell/194eec78-26db-4d8e-850f-a99ea2733e9f/application?embed=true&utm_source=Simplify&ref=Simplify",
+  "company": "Perchwell",
+  "title": "Software Engineering Intern",
+  "role": "Software Engineer Intern",
+  "regex_verdict": "eligible",
+  "split": "dev"
+ },
+ {
+  "id": "f9cee634c2",
+  "url": "https://www.linkedin.com/jobs/view/engineering-internship-at-elveo-4466415978",
+  "company": "Elveo",
+  "title": "Engineering Internship",
+  "role": "Engineering Internship",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "fc80b549ed",
+  "url": "https://www.linkedin.com/jobs/view/internship-software-developer-commerce-cloud-at-dynamic-catholic-4476741131",
+  "company": "Dynamic Catholic",
+  "title": "Internship - Software Developer - Commerce Cloud",
+  "role": "Internship - Software Developer - Commerce Cloud",
+  "regex_verdict": "eligible",
+  "split": "test"
+ },
+ {
+  "id": "fdd9cf1e38",
+  "url": "https://www.linkedin.com/jobs/view/quantitative-developer-intern-summer-2027-at-tower-research-capital-4437127776",
+  "company": "Tower Research Capital",
+  "title": "Quantitative Developer Intern - Summer 2027",
+  "role": "Quantitative Developer Intern - Summer 2027",
+  "regex_verdict": "eligible",
+  "split": "test"
+ }
+]

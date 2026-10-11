@@ -1,0 +1,56 @@
+{
+  "_why": [
+    "The 4 sources have systematic gaps: some companies are never listed. Tested 2026-09-16:",
+    "SimplifyJobs and vanshb03 READMEs have 0 entries for Bloomberg / Jane Street / Stripe",
+    "(the same files have 26 Google and 187 Oracle entries, so it isn't a grep problem).",
+    "When these companies open roles the daily report says nothing, so we query their own ATS directly.",
+    "",
+    "Rule: the count of postings matching want_re goes from 0 to non-zero => roles are open.",
+    "`control` is a probe self-test: a query that must return results. If it returns 0 the probe is broken",
+    "(stale selector / blocked / domain changed), not 'no roles yet'. Without it,",
+    "a silently broken probe looks exactly like a company that hasn't opened roles."
+  ],
+  "want_re": "(?i)\\b(software|engineer|engineering|developer|technology|technical)\\b[^|]{0,60}\\b(intern|interns|internship)\\b|\\b(intern|interns|internship)\\b[^|]{0,60}\\b(software|engineer|engineering|developer)\\b",
+  "_foreign_note": "Only used to collapse overseas postings in alerts, never to drop them (location fields can be empty or oddly written; hard filtering would lose real postings). Extend as needed.",
+  "foreign_location_re": "(?i)bengaluru|bangalore|singapore|london|dublin|bucharest|toronto|vancouver|tokyo|hong kong|shanghai|beijing|sydney|s(a|ã)o paulo|tel aviv|amsterdam|berlin|paris|zurich|madrid|warsaw|mumbai|pune|hyderabad|gurgaon|seoul|taipei|united kingdom|canada|india|ireland|romania|germany|france|japan|australia|brazil|netherlands|poland|israel|switzerland|spain|singapore",
+  "targets": [
+    {
+      "company": "Bloomberg",
+      "ats": "avature",
+      "url": "https://bloomberg.avature.net/careers/SearchJobs",
+      "queries": [
+        "Software Engineer Internship",
+        "2027",
+        "Internship"
+      ],
+      "control": "Engineer",
+      "job_url": "https://bloomberg.avature.net/careers/JobDetail/x/{id}",
+      "note": "Tested 2026-09-16: 'Software Engineer Internship' returns 0; '2027' returns 6, all non-engineering (Early Professional Program). Last year's Summer 2026 postings (job 13625 NY / 13614 Princeton) now 302. Bloomberg's early-career titles carry a year prefix, so the '2027' query also catches renamed postings.",
+      "action": "Rolling and fast: apply the day the alert fires. Locations: NY / Princeton only."
+    },
+    {
+      "company": "Snap",
+      "ats": "workday_cxs",
+      "url": "https://wd1.myworkdaysite.com/wday/cxs/snapchat/snap/jobs",
+      "job_url_base": "https://wd1.myworkdaysite.com/en-US/snapchat/snap",
+      "note": "Snap Inc. (Snapchat), HQ Santa Monica. Tested 2026-09-17: 177 open roles, 0 US internships; the 4 early-career roles are all overseas. Not on Greenhouse (snap / snapchat / snapinc tokens all 404): it uses Workday's myworkdaysite.com, tenant snapchat, site snap.",
+      "action": "Consumer tech company in LA with no ITAR constraints, and none of the 4 sources list it. Apply as soon as roles open."
+    },
+    {
+      "company": "Stripe",
+      "ats": "greenhouse",
+      "token": "stripe",
+      "control": "board_nonempty",
+      "note": "Tested 2026-09-16: 651 postings on the board, 7 with 'intern' in the title, all Software Engineer, Intern; 8128745 covers San Francisco / Seattle / New York and is open now.",
+      "action": "Already open; don't wait."
+    },
+    {
+      "company": "Jane Street",
+      "ats": "greenhouse",
+      "token": "janestreet",
+      "control": "board_nonempty",
+      "note": "⚠️ Partial coverage: tested 2026-09-16, 230 postings, 0 with 'intern'; the 5 early-career ones are Campus Recruiter roles. Jane Street's internships run through its own site, not this Greenhouse board, so this probe only catches the case where they post internships to the board.",
+      "action": "Don't rely on the probe; check janestreet.com/join-jane-street manually during recruiting season."
+    }
+  ]
+}

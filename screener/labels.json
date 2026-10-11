@@ -1,0 +1,434 @@
+{
+ "e403baffa5": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "cc5aadc310": {
+  "label": "citizen_only",
+  "source": "consensus"
+ },
+ "bdee694bc2": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "e97455d879": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "b789876a77": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "b875827847": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "92ef184280": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "0857b9944f": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "4e558ed6ae": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "8c6c6e76f8": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "d54a7e7aa4": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "8eca328315": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "156020d50a": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "c12bf6c369": {
+  "label": "citizen_only",
+  "source": "consensus"
+ },
+ "6be897784a": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "0c4953148d": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "ca0a651e16": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "eligible"
+ },
+ "0032fc1458": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "85e683983d": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "d4f23908a5": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "citizen_only"
+ },
+ "1728ab78b5": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "c5a3907c48": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "aaa8e3e374": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "c086e92e34": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "9a4e66c57a": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "0def7fb002": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "eligible"
+ },
+ "5cb8093a99": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "184a4d1eea": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "8471f56bcb": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "9bba9a8e20": {
+  "label": "citizen_only",
+  "source": "consensus"
+ },
+ "d5734eefc3": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "04df4d3a5c": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "eligible"
+ },
+ "4df68e38ce": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "4c0b041b12": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "df2765ecff": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "d7c27fb5ed": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "46b07b5062": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "ccfb1acbd7": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "041f8481e6": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "d3db09e7f5": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "52594c34ee": {
+  "label": "citizen_only",
+  "source": "consensus"
+ },
+ "4fdf8eda53": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "3caa8efae9": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "1573bdcf29": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "dc790852e8": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "ba050c8a4c": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "c98415cf65": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "53420a5f73": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "514021ab79": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "f519554be5": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "30298e3900": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "f2157de989": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "12c373067e": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "474884c4c6": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "84b0bad44c": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": true,
+  "consensus_was": "no_sponsorship"
+ },
+ "605dba3cec": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "45333adfcf": {
+  "label": "eligible",
+  "source": "consensus"
+ },
+ "8a21da6f85": {
+  "label": "no_sponsorship",
+  "source": "consensus"
+ },
+ "eef505eebb": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "dbb0d0030d": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "2042917608": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "c1aa6d008d": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "f21adb1a3e": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "e16da139ae": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "c6538802fa": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "6f9de9b909": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "2373815de1": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "62e79aa888": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "97b96626cc": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "70daf54c17": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "cbe65b28df": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "9591ade792": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "c5590b2731": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "ca3640050a": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "a5d318d7f7": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "2d990ae474": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "3fda19c56f": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "97d99db0e9": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "92d6f7a07a": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "2e9392cc21": {
+  "label": "citizen_only",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "415e35e820": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "29abeb20d2": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "d1235f5282": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "8399e97bc8": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "d7f28c9b12": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "985e2d0818": {
+  "label": "eligible",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "94492d275e": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ },
+ "8f09542d6a": {
+  "label": "no_sponsorship",
+  "source": "human",
+  "spot_check": false,
+  "consensus_was": null
+ }
+}

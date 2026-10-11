@@ -1,0 +1,3 @@
+anthropic>=1.13
+openai>=3.28
+pydantic>=2.14
