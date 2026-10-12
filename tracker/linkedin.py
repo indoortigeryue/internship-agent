@@ -219,6 +219,28 @@ def repost_suspicion(hrs, n_applicants):
     return False, ""
 
 
+def carry_over(kept):
+    """Jobs from the previous linkedin_jobs.json that this run didn't return but that were
+    posted within the last 24h, with hours_ago advanced to now."""
+    if not OUT.exists():
+        return []
+    try:
+        prev = json.loads(OUT.read_text(encoding="utf-8"))
+        then = datetime.fromisoformat(prev["fetched_at"])
+    except (ValueError, KeyError):
+        return []
+    elapsed = (datetime.now(timezone.utc) - then).total_seconds() / 3600
+    have = {r["id"] for r in kept}
+    out = []
+    for r in prev.get("jobs", []):
+        if r.get("id") in have or r.get("hours_ago") is None:
+            continue
+        age = r["hours_ago"] + elapsed
+        if age <= 24:
+            out.append({**r, "hours_ago": round(age, 1), "ago": f"{int(age)} hours ago", "carried_over": True})
+    return out
+
+
 def crawl(max_pages, dry):
     seen_ids, rows = set(), []
     for kw in QUERIES:
@@ -227,6 +249,14 @@ def crawl(max_pages, dry):
         for page in range(max_pages):
             url = SEARCH.format(kw=q(kw), loc=q(LOCATION), start=page * PER_PAGE)
             status, body = fetchlib.http_get(url, timeout=30)
+            # 429 = rate limited (LinkedIn does this after a few hundred guest requests, or
+            # on a second run the same day). Back off and retry before giving up on the keyword.
+            for wait in (20, 60):
+                if status != 429:
+                    break
+                print(f"  page {page + 1}: HTTP 429, retrying in {wait}s")
+                time.sleep(wait)
+                status, body = fetchlib.http_get(url, timeout=30)
             if status != 200 or not body:
                 print(f"  page {page + 1}: HTTP {status}, stopping pagination")
                 break
@@ -311,6 +341,15 @@ def crawl(max_pages, dry):
     today = datetime.now(timezone.utc).date()
     for r in kept:
         r["first_seen"] = today.isoformat()
+
+    # ...but a second run the same day must not wipe out the first one. LinkedIn
+    # rate-limits a repeat crawl after a page or two, so overwriting would replace a full
+    # morning crawl with a truncated one (2026-10-12: 25 kept jobs became 13). Carry over
+    # earlier jobs that are *still* within 24h of posting -- the cutoff stays by posting time.
+    carried = carry_over(kept)
+    if carried:
+        print(f"Carried over {len(carried)} jobs from the previous run (still within 24h of posting)")
+        kept += carried
 
     if dry:
         print("\n(--dry, nothing written)")

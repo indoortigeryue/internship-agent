@@ -229,7 +229,9 @@
       "graphics",
       "game engine",
       "quantum",
-      "simulation"
+      "simulation",
+      "volunteer",
+      "unpaid"
     ],
     "exclude_no_h1b_sponsor": true,
     "_h1b_note": "simplify.jobs data has a sponsors_h1b field; explicitly false => excluded",
@@ -276,7 +278,9 @@
       "quality assurance",
       "\\btest engineer",
       "\\btest engineering",
-      "\\bsoftware test\\b"
+      "\\bsoftware test\\b",
+      "\\belectrical\\b",
+      "\\bcontrols?\\s+engineer"
     ],
     "_regex_note": "Substring matching misses 'AI and ML Projects' (no slash) and can't use bare 'ai' (hits email/training/maintain), so these use word-boundary regexes.",
     "min_term_year": 2027,
@@ -293,7 +297,7 @@
       "\\bcloud\\b",
       "\\bweb\\b",
       "\\bapi\\b",
-      "\\bspring\\b",
+      "\\bspring\\s*boot\\b",
       "\\bnode\\.?js\\b",
       "\\breact\\b",
       "\\binfrastructure\\b",
@@ -301,7 +305,7 @@
       "\\bdevops\\b",
       "\\bdatabase\\b"
     ],
-    "_override_note": "If the title also has one of these strong SWE signals, the AI/ML regexes don't apply. Otherwise 'Backend Software Engineer Intern - Java & AI - Masters' gets dropped over one 'AI' (this happened).",
+    "_override_note": "If the title also has one of these strong SWE signals, the AI/ML regexes don't apply. Otherwise 'Backend Software Engineer Intern - Java & AI - Masters' gets dropped over one 'AI' (this happened). 'spring' only as 'spring boot': a bare \\bspring\\b matched '(Spring 2027)' and switched every exclusion off for Spring-term postings.",
     "undergrad_only_regex": [
       "\\bundergrad(?:uate)?\\b",
       "bachelor'?s? only",

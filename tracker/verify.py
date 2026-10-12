@@ -581,6 +581,7 @@ def main(write, recheck, limit):
     for i, j in enumerate(todo, 1):
         res = check(j["url"], j.get("company", ""))
         res["checked"] = date.today().isoformat()
+        res["engine"] = "regex" if US_CITIZEN else ENGINE
         res["company"], res["role"] = j["company"], j["role"]
         cache[j["url"]] = res
         icon = "✓" if res["verdict"] == "ok" else ("?" if res["verdict"] in
