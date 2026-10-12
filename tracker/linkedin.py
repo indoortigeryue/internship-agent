@@ -204,7 +204,9 @@ def applicants(jid):
     d = re.search(r'show-more-less-html__markup(.*?)</div>', raw, re.S)
     if d:
         body = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", d.group(1)))).strip()
-    return n, body[:4000]
+    # Keep the whole description: sponsorship / export clauses usually sit at the very end,
+    # which an earlier 4,000-char cap cut off for a third of postings.
+    return n, body[:20000]
 
 
 def repost_suspicion(hrs, n_applicants):

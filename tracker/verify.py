@@ -507,8 +507,13 @@ def agent_eligibility(text, company, title):
     return r["verdict"], quote, r["cost"]
 
 
-def check(url, company=""):
+def check(url, company="", stored_jd=""):
     status, raw, api_title, meta = fetch_jd(url, company)
+    # LinkedIn blocks most automated page fetches (403/429), but linkedin.py already saved
+    # the description when it crawled. Judge that instead of giving up as "blocked".
+    if len(stored_jd) >= 400 and (raw.startswith("__ERROR__") or status in (401, 403, 429)
+                                  or status is None or len(page_text(raw)) < 400):
+        return {**judge(stored_jd, api_title or "", status, company), "source": "stored LinkedIn JD"}
     if raw.startswith("__ERROR__"):
         return {"verdict": "unknown", "note": raw[9:][:120], "http": None}
     # The ATS API says outright the job isn't open -- more reliable than scanning page text, so trust it first
@@ -529,7 +534,11 @@ def check(url, company=""):
     ev = find_first(text, DEAD_PAGE, guards=(CONDITIONAL, DEAD_GUARD))
     if ev:
         return {"verdict": "dead", "note": ev, "http": status}
-    title = api_title or real_title(raw)
+    return judge(text, api_title or real_title(raw), status, company)
+
+
+def judge(text, title, status, company):
+    """Eligibility + direction verdict for JD text (fetched page or stored LinkedIn JD)."""
     if US_CITIZEN:
         pass  # no sponsorship / citizenship / export rule can exclude a US citizen
     elif ENGINE == "cascade":
@@ -569,8 +578,15 @@ def main(write, recheck, limit):
     cache = {} if recheck else (json.loads(CACHE.read_text(encoding="utf-8"))
                                 if CACHE.exists() else {})
 
-    todo = [j for j in jobs
-            if j["status"] == "shown" and j["url"] and j["url"] not in cache]
+    # JD text linkedin.py saved while crawling: lets LinkedIn postings be judged even when
+    # the page itself is blocked, and lets earlier "blocked" verdicts be retried with it.
+    li = ROOT / "data" / "linkedin_jobs.json"
+    stored = {r["url"]: r["jd"] for r in (json.loads(li.read_text(encoding="utf-8")).get("jobs", [])
+                                          if li.exists() else []) if len(r.get("jd") or "") >= 400}
+    todo = [j for j in jobs if j["status"] == "shown" and j["url"] and (
+        j["url"] not in cache
+        or (j["url"] in stored and cache[j["url"]].get("verdict") in ("blocked", "unknown")
+            and not cache[j["url"]].get("manual")))]
     todo.sort(key=lambda j: -j["score"])
     if limit:
         todo = todo[:limit]
@@ -579,7 +595,7 @@ def main(write, recheck, limit):
           f"{len(todo)} of them need checking (the rest are cached)\n")
 
     for i, j in enumerate(todo, 1):
-        res = check(j["url"], j.get("company", ""))
+        res = check(j["url"], j.get("company", ""), stored.get(j["url"], ""))
         res["checked"] = date.today().isoformat()
         res["engine"] = "regex" if US_CITIZEN else ENGINE
         res["company"], res["role"] = j["company"], j["role"]
