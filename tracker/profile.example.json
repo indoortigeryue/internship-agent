@@ -510,5 +510,10 @@
     "_export_note": "true when US export licenses are rarely granted for the candidate's nationality; then 'or be eligible to obtain an export license' does not soften an ITAR/EAR requirement.",
     "engine": "regex",
     "_engine_note": "regex (free) or cascade (LLM agents; needs ANTHROPIC_API_KEY in .env). run_daily.sh reads this."
+  },
+  "application_log": {
+    "path": "applications.xlsx",
+    "sheet": "Applied",
+    "_note": "optional .xlsx with columns Company Name / Title / Application Date; jobs you applied to get marked automatically. Path: absolute, ~/..., or relative to tracker/."
   }
 }

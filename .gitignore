@@ -14,6 +14,7 @@ tracker/applications.xlsx
 tracker/profile.json
 tracker/manual_jobs.json
 tracker/manual_excluded.json
+tracker/manual_verdicts.json
 
 # Scraped JD text is the employers' content: keep local, publish only results
 screener/data/

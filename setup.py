@@ -160,6 +160,14 @@ def ask_month(q, default):
             return a
 
 
+def ask_int(q, default, lo, hi):
+    while True:
+        a = ask(q, str(default))
+        if a.isdigit() and lo <= int(a) <= hi:
+            return int(a)
+        print(f"  enter a number between {lo} and {hi}")
+
+
 def section(title):
     print(f"\n{'─' * 64}\n{title}\n{'─' * 64}")
 
@@ -179,9 +187,11 @@ def get_api_key():
     The key is checked with a free Models API call and saved to .env (mode 600)."""
     load_env()
     if os.environ.get("ANTHROPIC_API_KEY"):
-        if not ENV.exists():
-            print("  using ANTHROPIC_API_KEY from your environment (a scheduled run needs it set too,\n"
-                  "  or put it in .env)")
+        if not ENV.exists() and ask_yes("  Found ANTHROPIC_API_KEY in your environment. Save it to .env so\n"
+                                        "  scheduled runs (cron etc.) can use it too?", True):
+            ENV.write_text(f"ANTHROPIC_API_KEY={os.environ['ANTHROPIC_API_KEY']}\n", encoding="utf-8")
+            ENV.chmod(0o600)
+            print(f"  ✓ saved to {ENV.name} (gitignored, readable only by you)")
         return True
     try:
         import anthropic
@@ -394,6 +404,8 @@ def build_profile(a):
     if a["degree_level"] == "bachelor":
         sc["advanced_degree_bonus"] = sc["grad_title_bonus"] = 0
     p["cooldown"]["groups"] = []
+    if a["log_path"]:
+        p["application_log"] = {"path": os.path.expanduser(a["log_path"]), "sheet": a["log_sheet"]}
     return p
 
 
@@ -404,6 +416,7 @@ def main():
         sys.exit(f"missing {EXAMPLE}")
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else None
     oc = (old or {}).get("candidate", {})
+    ex_old = (old or {}).get("hard_exclude", {})
     print("Internship Agent setup. Press Enter to accept a [default].")
     if old:
         print("(An existing profile was found; its answers are the defaults.)")
@@ -442,9 +455,16 @@ def main():
                                                       "Winter": "Winter"}, ["Summer", "Fall", "Spring", "Winter"])
     a["terms"] = terms + ["Co-op"]
     t = date.today()
-    a["season"] = int(ask("Recruiting season (internship year)", str(t.year + 1 if t.month >= 6 else t.year)))
+    a["season"] = ask_int("Recruiting season (internship year, e.g. 2027)",
+                          (old or {}).get("season_year") or (t.year + 1 if t.month >= 6 else t.year),
+                          t.year, t.year + 3)
     a["exclude_defense"] = ask_yes("Hide defense / aerospace contractors?", a["auth"] != "us_citizen")
-    a["max_age"] = int(ask("Hide postings older than N days", "10"))
+    a["max_age"] = ask_int("Hide postings older than N days", ex_old.get("max_age_days", 10), 1, 90)
+    log = (old or {}).get("application_log", {})
+    print("If you track applications in a spreadsheet (.xlsx with columns Company Name / Title /\n"
+          "Application Date), jobs you applied to get marked automatically.")
+    a["log_path"] = ask("  Spreadsheet path (Enter to skip)", log.get("path", ""))
+    a["log_sheet"] = ask("  Sheet name", log.get("sheet", "Applied")) if a["log_path"] else "Applied"
 
     a["engine"] = "regex"
     if a["auth"] == "us_citizen":

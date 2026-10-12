@@ -16,6 +16,10 @@ ROOT = Path(__file__).resolve().parent
 CACHE = ROOT / "data" / "verified.json"
 MANUAL = ROOT / "manual_verdicts.json"
 
+# Your own verdicts (gitignored); manual_verdicts.example.json documents the format.
+if not MANUAL.exists():
+    print("no manual_verdicts.json, nothing to apply")
+    raise SystemExit(0)
 cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
 manual = {k: v for k, v in json.loads(MANUAL.read_text(encoding="utf-8")).items()
           if not k.startswith("_")}

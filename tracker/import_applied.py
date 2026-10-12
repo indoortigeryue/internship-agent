@@ -22,8 +22,13 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
 # Application log: an .xlsx with columns Company Name / Title / Application Date.
-XLSX = ROOT / "applications.xlsx"
-SHEET = "Applied"
+# Location and sheet name come from profile.json ("application_log"); the path may be
+# absolute, ~-relative, or relative to this folder.
+_P = ROOT / "profile.json"
+_LOG = (json.loads(_P.read_text(encoding="utf-8")) if _P.exists() else {}).get(
+    "application_log", {"path": "applications.xlsx", "sheet": "Applied"})
+XLSX = (ROOT / Path(_LOG["path"]).expanduser()).resolve()
+SHEET = _LOG.get("sheet", "Applied")
 SEEN = ROOT / "data" / "seen.json"
 JOBS = ROOT / "data" / "jobs.json"
 
