@@ -494,13 +494,33 @@ ENGINE = "regex"
 SCREENER = ROOT.parent / "screener"
 
 
+# Real JDs run 3k-28k chars. A few career sites return the whole site as "the page"
+# (100k-200k tokens): sent as-is, one Opus call cost $0.40-0.80. Keep the head of the page
+# plus every passage that mentions a restriction, so nothing that matters is cut.
+MAX_JD_CHARS = 30_000
+
+
+def trim_jd(text, risk):
+    if len(text) <= MAX_JD_CHARS:
+        return text
+    head, rest = text[:MAX_JD_CHARS - 6_000], text[MAX_JD_CHARS - 6_000:]
+    spans = [rest[max(0, m.start() - 300):m.end() + 300] for m in risk.finditer(rest)]
+    return head + "\n…\n" + "\n…\n".join(spans)[:6_000]
+
+
+# Set after the first API failure in a run (spend limit, no credit, bad key): the rest of
+# the run uses the regex engine instead of failing every remaining JD the same way.
+AGENT_DOWN = None
+
+
 def agent_eligibility(text, company, title):
     """Eligibility via the screener cascade: Haiku triage, Opus only when uncertain.
     Returns (verdict, evidence quote, $ cost)."""
     if str(SCREENER) not in sys.path:
         sys.path.insert(0, str(SCREENER))
     import agents  # needs the anthropic SDK: run with the repo's .venv python
-    job = {"id": "", "company": company, "title": title, "role": title, "text": agents.dedupe(text)}
+    job = {"id": "", "company": company, "title": title, "role": title,
+           "text": trim_jd(agents.dedupe(text), agents.RISK)}
     r = agents.cascade(job, agents.HAIKU, agents.OPUS)
     e = r["extraction"]
     quote = e["sponsorship_quote"] if r["verdict"] == "no_sponsorship" else e["citizenship_quote"]
@@ -539,28 +559,35 @@ def check(url, company="", stored_jd=""):
 
 def judge(text, title, status, company):
     """Eligibility + direction verdict for JD text (fetched page or stored LinkedIn JD)."""
-    if US_CITIZEN:
-        pass  # no sponsorship / citizenship / export rule can exclude a US citizen
-    elif ENGINE == "cascade":
-        v, quote, cost = agent_eligibility(text, company, title)
-        if v != "eligible":
-            return {"verdict": v, "note": quote, "http": status, "engine": "cascade", "cost": cost}
-    else:
+    global AGENT_DOWN
+    engine = "regex"
+    if not US_CITIZEN and ENGINE == "cascade" and not AGENT_DOWN:
+        try:
+            v, quote, cost = agent_eligibility(text, company, title)
+        except Exception as e:  # API / quota / network: fall back, retry next run
+            AGENT_DOWN = f"{type(e).__name__}: {str(e)[:160]}"
+            print(f"  !! AI screening unavailable ({AGENT_DOWN}); using the regex engine for the rest of this run")
+        else:
+            if v != "eligible":
+                return {"verdict": v, "note": quote, "http": status, "engine": "cascade", "cost": cost}
+            engine = "cascade"
+    tag = {"engine": "regex_fallback", "fallback_reason": AGENT_DOWN} if ENGINE == "cascade" and engine == "regex" and not US_CITIZEN else {}
+    if not US_CITIZEN and engine == "regex":
         ev = find_first(text, NO_SPONSOR) if NEEDS_SPONSOR else None
         if ev:
-            return {"verdict": "no_sponsorship", "note": ev, "http": status}
+            return {"verdict": "no_sponsorship", "note": ev, "http": status, **tag}
         ev = find_first(text, CITIZEN_ONLY)
         if ev:
-            return {"verdict": "citizen_only", "note": ev, "http": status}
+            return {"verdict": "citizen_only", "note": ev, "http": status, **tag}
         ev = find_first(text, EXPORT_CONTROL) if not US_PERSON else None
         if ev:
-            return {"verdict": "citizen_only", "note": ev, "http": status}
+            return {"verdict": "citizen_only", "note": ev, "http": status, **tag}
 
     d, dev = direction(text, title)
     if d in ("cpp_only", "title_mismatch"):
-        return {"verdict": d, "note": dev or "", "http": status, "real_title": title}
+        return {"verdict": d, "note": dev or "", "http": status, "real_title": title, **tag}
     return {"verdict": "ok", "note": "", "http": status,
-            "real_title": title, "flag": d or "", "flag_note": dev or ""}
+            "real_title": title, "flag": d or "", "flag_note": dev or "", **tag}
 
 
 REASON = {
@@ -586,7 +613,9 @@ def main(write, recheck, limit):
     todo = [j for j in jobs if j["status"] == "shown" and j["url"] and (
         j["url"] not in cache
         or (j["url"] in stored and cache[j["url"]].get("verdict") in ("blocked", "unknown")
-            and not cache[j["url"]].get("manual")))]
+            and not cache[j["url"]].get("manual"))
+        # judged by the regex engine only because the agents were unreachable last time
+        or (ENGINE == "cascade" and cache[j["url"]].get("engine") == "regex_fallback"))]
     todo.sort(key=lambda j: -j["score"])
     if limit:
         todo = todo[:limit]
@@ -597,7 +626,7 @@ def main(write, recheck, limit):
     for i, j in enumerate(todo, 1):
         res = check(j["url"], j.get("company", ""), stored.get(j["url"], ""))
         res["checked"] = date.today().isoformat()
-        res["engine"] = "regex" if US_CITIZEN else ENGINE
+        res["engine"] = "regex" if US_CITIZEN else res.get("engine", ENGINE)
         res["company"], res["role"] = j["company"], j["role"]
         cache[j["url"]] = res
         icon = "✓" if res["verdict"] == "ok" else ("?" if res["verdict"] in
