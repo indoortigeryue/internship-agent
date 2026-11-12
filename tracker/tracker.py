@@ -220,7 +220,10 @@ def parse_vansh(text, source, today):
             "location": clean_location(strip_tags(loc_raw)),
             "url": pick_apply_url(app_raw),
             "age_days": parse_posted_date(date_raw, today),
-            "markers": extract_markers(company_raw, role_raw),
+            # vanshb03 marks a closed posting by putting 🔒 in the apply column in place
+            # of the link, so that cell has to be checked too (31 closed jobs slipped
+            # through as "no direct link" before this)
+            "markers": extract_markers(company_raw, role_raw, app_raw),
             "section": "Off-season / Co-op" if "offseason" in source else "Mixed list",
             "source": source,
         })
